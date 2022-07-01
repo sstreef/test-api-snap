@@ -5,7 +5,7 @@ description: Greeter
 
 grade: devel
 confinement: devmode
-base: core22
+base: core20
 
 apps:
   test-api:
@@ -15,7 +15,7 @@ parts:
   test-api:
     source: .
     plugin: npm
-    build-snaps: [node/16/stable]
+    npm-node-version: 14.16.1
 
 architectures:
   - build-on: arm64
