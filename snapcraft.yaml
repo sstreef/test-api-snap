@@ -1,6 +1,6 @@
 name: test-api
 version: '0.1'
-summary: Greets the user of the API
+summary: Greets the user of the API!
 description: Greeter
 
 grade: devel
